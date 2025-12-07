@@ -15,6 +15,7 @@
 	"return-type": "json",
 	"exec": "$HOME/.config/waybar/custom_modules/gh_notifications.sh",
 	"interval": 300,
+	"on-click": "exec xdg-open https://github.com/notifications?query=reason%3Aparticipating",
 }
 ...
 ```
