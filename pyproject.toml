@@ -1,0 +1,17 @@
+[project]
+name = "waybar-github-notifications"
+version = "0.1.0"
+description = "waybar github notifications icon"
+authors = [
+    {name = "mcgillij",email = "mcgillivray.jason@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygithub (>=2.8.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
