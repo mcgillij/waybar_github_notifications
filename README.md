@@ -34,3 +34,13 @@ cd "$(dirname "$0")"
 poetry run python waybar_gh_notifications.py <yourtokenhere>
 
 ```
+
+## Adding some color
+
+``` css
+
+#custom-gh {
+    color: rgba(0, 255, 0, 1);
+}
+
+```
